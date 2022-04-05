@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class ObjectBehaviourScript : MonoBehaviour
 {
-    // animation when nothing is going on
-    public Animation idleAnimation;
-    
+    [SerializeField] GameObject State;
     // note hit
     public Animation hitAnimation;
 
     // note miss
-    public Animation missAnimation;
+    // public Animation missAnimation;
 
-    // win states
-    public Animation failAnimation;
-    public Animation winAnimation;
+    // fail and win states
+    public GameObject failAnimation;
+    public GameObject winAnimation;
 
 }

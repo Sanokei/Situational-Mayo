@@ -1,17 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NoteBehaviour : MonoBehaviour
 {
-    private bool _hit = false;
-    public delegate void NoteTriggeredEvent(GameObject note, bool hit);
-    public static event NoteTriggeredEvent OnNoteTriggeredEvent;
-
     [SerializeField] RectTransform _rt;
 
     //CLEANUP: getter and setter blah blah blah
     [HideInInspector] public float tempo;
+    public Image image;
 
     void FixedUpdate()
     {

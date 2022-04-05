@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1d11bb623973549a4c284a2ba077d3, type: 3}
   m_Name: TV_Note
   m_EditorClassIdentifier: 
-  tempo: 350
-  image: {fileID: 0}
+  tempo: 700
+  image: {fileID: 21300000, guid: 83fa6b54732120949b4bcb19942c1300, type: 3}

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1d11bb623973549a4c284a2ba077d3, type: 3}
   m_Name: Cart_Note
   m_EditorClassIdentifier: 
-  tempo: 300
+  tempo: 800
   image: {fileID: 0}

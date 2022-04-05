@@ -6,6 +6,7 @@ using UnityEngine;
 public class Rhythm : ScriptableObject
 {
     public string pattern;
+    public string explanation;
     public GameObject physicalObject;
     public Note note;
 }

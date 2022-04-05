@@ -6,5 +6,5 @@ using UnityEngine.UI;
 public class Note : ScriptableObject
 {
     public float tempo = 200f;
-    public Image image;
+    public Sprite image;
 }
